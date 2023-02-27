@@ -36,20 +36,6 @@ The program takes into account the following factors to calculate the probabilit
 - Role of impacts from asteroids or comets (0-1)
 - Presence of exoplanet moons or rings (0-1)
 
-# The calculation is based on the equation:
-
-Probability of habitable planets = (f_d * f_p * n_e * f_l * f_i * f_c * L) / N
-
-where
-- f_d = fraction of stars with planets
-- f_p = average number of planets that can support life per star with planets
-- n_e = average number of habitable planets per star that can support life
-- f_l = fraction of habitable planets that actually develop life
-- f_i = fraction of planets with life that develop intelligent life
-- f_c = fraction of time that intelligent civilizations release detectable signals
-- L = lifetime of a civilization that releases detectable signals
-- N = total number of stars in the universe
-
 # Usage
 - Clone or download the repository to your local machine.
 - Install Python 3 on your machine, if not already installed.
