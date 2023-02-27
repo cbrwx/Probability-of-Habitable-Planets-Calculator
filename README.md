@@ -51,3 +51,5 @@ Additionally, the values used for some of the factors are based on assumptions a
 
 # Contributing
 Contributions to this project are welcome! If you have any suggestions or ideas for improvements, please feel free to submit a pull request or open an issue.
+
+.cbrwx
