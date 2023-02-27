@@ -1,66 +1,53 @@
-# Probability of Habitable Planets Calculator
-This Python program calculates the probability of habitable planets in the universe based on various user input factors.
+# Habitable Planets Probability Calculator with extra cheese
 
-# How to Use
-- Clone or download the repository.
-- Navigate to the directory where the habitable_planets.py file is located.
-- Run the command python habitable_planets.py.
-- Enter the required input values when prompted.
-- The program will output the calculated probability of habitable planets in the universe.
+This is a Python program that calculates the probability of habitable planets in the universe based on various factors that are known to contribute to the development of life.
 
 # Factors Considered
-The following factors are taken into account in the probability calculation:
+The program takes into account the following factors to calculate the probability of habitable planets:
 
-- Distance from the star
-- Size of the planet
-- Age of the planet
-- Composition of the planet
-- Strength of the planet's magnetic field
-- Stability of the planetary orbit
-- Presence of liquid water
-- Presence of organic molecules
-- Stability of the planet's climate
-- Presence of plate tectonics
-- Distance from other stars or planetary systems
-- Geological activity
-- Parent star's metallicity
-- Availability of energy sources
-- Presence of a moon
-- Level of stellar activity
-- Strength of the planetary magnetic field
-- Presence of planetary surface features
-- Density and composition of the interstellar medium
-- Rate of planetary rotation
-- Planetary obliquity
-- Planetary crust thickness
-- Rate of planetary atmosphere loss
-- Planetary evolutionary history
-- Presence of a global magnetic field
-- Type and intensity of the planet's surface radiation
-- Availability of nutrients and resources for life
-- Role of impacts from asteroids or comets
-- Presence of exoplanet moons or rings 
+- Distance from the star in AU
+- Size of the planet in Earth masses
+- Age of the planet in billions of years
+- Composition of the planet (0-1)
+- Strength of the planet's magnetic field (0-1)
+- Stability of the planetary orbit (0-1)
+- Presence of liquid water (0-1)
+- Presence of organic molecules (0-1)
+- Stability of the planet's climate (0-1)
+- Atmosphere conditions (0-1)
+- Presence of plate tectonics (0-1)
+- Distance from other stars or planetary systems in light years
+- Geological activity (0-1)
+- Parent star's metallicity (0-1)
+- Availability of energy sources (0-1)
+- Presence of a moon (0-1)
+- Level of stellar activity (0-1)
+- Strength of the planetary magnetic field (0-1)
+- Presence of planetary surface features (0-1)
+- Density and composition of the interstellar medium (0-1)
+- Rate of planetary rotation (0-1)
+- Planetary obliquity (0-1)
+- Planetary crust thickness (0-1)
+- Rate of planetary atmosphere loss (0-1)
+- Planetary evolutionary history (0-1)
+- Presence of a global magnetic field (0-1)
+- Type and intensity of the planet's surface radiation (0-1)
+- Availability of nutrients and resources for life (0-1)
+- Role of impacts from asteroids or comets (0-1)
+- Presence of exoplanet moons or rings (0-1)
 
-# Equation
-The equation used to calculate the probability of habitable planets is:
+# Usage
+- Clone or download the repository to your local machine.
+- Install Python 3 on your machine, if not already installed.
+- Open a command prompt or terminal and navigate to the directory where the program is located.
+- Run the program by entering the following command: python habitable_planets_probability_calculator.py
+- Enter the values for the various factors when prompted.
+- The program will output the probability of habitable planets in the universe.
 
-Probability of habitable planets = (f_d * f_p * n_e * f_l * f_i * f_c * L) / N
+# Limitations
+The calculated probability is based on the factors that are currently known to contribute to the development of life, but there may be other factors that have not been discovered yet. Therefore, the calculated probability should be taken as an estimate and not as an exact value.
 
-Where:
+Additionally, the values used for some of the factors are based on assumptions and estimations, and may not be accurate in all cases. Therefore, the calculated probability should be considered as a general guideline and not as a definitive answer.
 
-- f_d = fraction of stars with planets
-- f_p = fraction of planets that could support life
-- n_e = number of planets per star that could support life
-- f_l = fraction of planets where life actually arises
-- f_i = fraction of planets where intelligent life arises
-- f_c = fraction of the planet's life during which the intelligent species communicates
-- L = length of time that the intelligent species communicates
-- N = total number of stars in the universe
-
-# References
-This program is based on the research and calculations by Dr. Frank Drake and the SETI Institute.
-
-Dr. Frank Drake and the Drake Equation
-The Drake Equation: 2020 Edition
-License
-This project is licensed under the MIT License. See the LICENSE file for more details.
+# Contributing
+Contributions to this project are welcome! If you have any suggestions or ideas for improvements, please feel free to submit a pull request or open an issue.
